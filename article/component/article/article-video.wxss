@@ -1,0 +1,4 @@
+/* component/editor/video.wxss */
+.video{
+  display: flex;
+  justify-content: center;}

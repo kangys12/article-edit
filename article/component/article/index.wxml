@@ -1,0 +1,4 @@
+<!--component/article/index.wxml-->
+<view>
+  <slot></slot>
+</view>

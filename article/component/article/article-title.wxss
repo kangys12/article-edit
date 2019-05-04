@@ -1,0 +1,6 @@
+/* component/article-title/index.wxss */
+.title{
+  width: 300px;
+  margin: 0 auto;
+  font-weight: bold;
+}

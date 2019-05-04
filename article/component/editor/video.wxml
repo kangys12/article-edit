@@ -1,0 +1,6 @@
+<!--component/editor/video.wxml-->
+<view wx:if="{{ value}}" class='video'> 
+  <video  src="{{value}}" id="Video"></video>
+</view>
+<view bindtap="upload"></view>
+

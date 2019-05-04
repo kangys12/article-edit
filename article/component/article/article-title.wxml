@@ -1,0 +1,2 @@
+<!--component/article-title/index.wxml-->
+<view class='title'>{{value}}</view>

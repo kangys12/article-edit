@@ -1,0 +1,38 @@
+<view  class="content" wx:for="{{value}}" wx:key="**this">
+    <view class="nav">
+      <view>{{list[item.type]}}</view>
+      <view data-index="{{index}}"  bindtap="up" class="{{index==0? 'upgrade':''}}">
+        <van-icon name="upgrade" />
+      </view>
+      <view class="down {{index==value.length-1 ? 'downgrade':''}}">
+       <van-icon name="upgrade" data-index="{{index}}" bindtap="down" />
+      </view>
+      <view data-index="{{index}}" bindtap="delete"  class='delete'>
+        <van-icon name="clear"/>
+      </view>
+    </view>
+    <editor-title wx:if="{{item.type==0}}" value="{{item.value}}" data-index="{{index}}" bindchange="change"/>
+    <editor-text wx:elif="{{item.type==1}}" value="{{item.value}}" data-index="{{index}}" bindchange="change"/>
+    <editor-image wx:elif="{{item.type==2}}" value="{{item.value}}" data-index="{{index}}" bindchange="change"/>
+    <picker bindchange="choose_btn" value="{{value}}" range="{{array}}" wx:elif="{{item.type==3}}" data-index="{{index}}">
+      <editor-video  value="{{item.value}}" data-index="{{index}}" bindchange="change"/>
+    </picker>
+  </view>
+  <view class="editor_btn">
+    <view class="center" data-type="0" bindtap="append">
+      <van-icon name="records" />
+      <view>标题</view>
+    </view>
+    <view class="center" data-type="1" bindtap="append">
+      <van-icon name="description" />
+      <view>内容</view>
+    </view>
+    <view class="center" data-type="2" bindtap="add_image">
+      <van-icon name="photo-o" />
+      <view>图片</view>
+    </view>
+    <view class="center" data-type="3" bindtap="add_video" >
+      <van-icon name="play-circle-o" />
+      <view>视频</view>
+    </view>
+  </view>

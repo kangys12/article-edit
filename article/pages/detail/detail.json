@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "article":"/component/article/index",
+    "article-title": "/component/article/article-title",
+    "article-image":"/component/article/article-image",
+    "article-text": "/component/article/article-text",
+    "article-video": "/component/article/article-video"
+
+  }
+}

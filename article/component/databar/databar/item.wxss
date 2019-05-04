@@ -1,0 +1,19 @@
+/* databar/item.wxss */
+
+.item{
+  margin: 0 auto;
+  padding: 20rpx 67rpx;
+  text-align: center;
+  font-size: 13px;
+  color: red;
+  border-left:1px #ccc solid;
+  position: relative;
+  left:-1px;
+}
+.item .title{
+  color: black;
+}
+
+
+
+

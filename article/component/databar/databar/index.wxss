@@ -1,0 +1,10 @@
+/* databar/index.wxss */
+.databar {
+  display: flex;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+ 
+}
+
+
+

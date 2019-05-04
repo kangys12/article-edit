@@ -1,0 +1,38 @@
+/* component/editor/index.wxss */
+.nav{
+  display: flex;
+  width: 400px; 
+}
+.nav view{
+   margin-right: 20px;
+}
+editor{
+  height: 100%
+}
+.editor_btn{
+  display: flex;
+  justify-content: space-around;
+  padding-left:0;
+}
+.down{
+  transform: rotateX(180deg);
+}
+.editor_btn .center{
+  text-align: center;
+}
+.nav van-icon{
+    height: 15px;
+}
+.nav .delete{
+  position: absolute;
+  right: 0;
+}
+.content{
+  padding: 0 25px;
+} 
+.upgrade van-icon{
+  color: #ccc;
+} 
+.downgrade van-icon{
+  color: #ccc;
+} 

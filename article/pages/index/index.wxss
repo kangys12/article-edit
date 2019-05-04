@@ -1,0 +1,4 @@
+/* pages/index/index.wxss */
+.btn{
+  padding:100% 30rpx;
+}

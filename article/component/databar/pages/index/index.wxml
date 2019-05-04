@@ -1,0 +1,15 @@
+<!--index.wxml-->
+
+
+    <!-- 数据条 -->
+
+    <databar>
+      <databar-item title="钱包" text="0" />
+      <databar-item title="订单" icon="share" />
+      <databar-item title="客服" icon="service" />
+      <databar-item title="充值" icon="card" />
+    </databar>
+
+
+    
+  

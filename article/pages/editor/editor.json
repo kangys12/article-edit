@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "editor":"/component/editor/index",
+    "editor-title": "/component/editor/title",
+    "editor-image":"/component/editor/image",
+    "editor-text": "/component/editor/text",
+    "editor-video": "/component/editor/video",
+    "van-button": "/miniprogram_npm/vant-weapp/button/index"
+  }
+}

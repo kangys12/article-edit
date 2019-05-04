@@ -1,0 +1,4 @@
+<!--databar/index.wxml-->
+<view class='databar'>
+  <slot></slot>
+</view>

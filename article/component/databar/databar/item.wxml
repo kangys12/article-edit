@@ -1,0 +1,6 @@
+<!--databar/item.wxml-->
+<view class="item">
+  <view class='border' wx:if="{{text}}">{{text}}</view>
+  <van-icon  wx:elif="{{icon}}" name="{{icon}}" />
+  <view class='title'>{{title}}</view>
+</view>

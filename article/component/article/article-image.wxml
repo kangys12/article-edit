@@ -1,0 +1,5 @@
+<!--component/article-image/index.wxml-->
+<view class='img'>
+  <image src='{{value}}'></image>
+
+</view>

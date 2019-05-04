@@ -1,0 +1,6 @@
+<form bindsubmit="formSubmit">
+  <editor id="myeditor" value="{{article}}" name="content"/>
+  <button form-type="submit">提交</button>
+</form>
+
+

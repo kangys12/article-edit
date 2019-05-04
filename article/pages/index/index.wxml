@@ -1,0 +1,7 @@
+<!--pages/index/index.xml-->
+<view wx:for='{{arr}}' wx:key='{{index}}'>
+  <text data-date='{{item.createt_time}}' data-index='{{index}}' bindtap='detail'>{{item.createt_time}}</text>
+</view>
+<navigator class='btn' url="/pages/editor/editor">
+  <van-button square size='large' type="primary">写日记</van-button>
+</navigator>

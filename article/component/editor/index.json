@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "editor-title": "title",
+    "editor-text": "text",
+    "editor-image": "image",
+    "editor-video": "video",
+    "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
+    
+  }
+}

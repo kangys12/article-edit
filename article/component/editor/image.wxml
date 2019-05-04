@@ -1,0 +1,5 @@
+<!--component/editor/image.wxml-->
+<view  bindtap="change" class='img'> 
+    <image src="{{value}}" ></image> 
+</view>
+

@@ -1,0 +1,4 @@
+<!--component/editor/title.wxml-->
+<input  placeholder="请输入标题"  value="{{value}}" bindinput='change' class='title'></input>
+
+

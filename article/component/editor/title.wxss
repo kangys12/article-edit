@@ -1,0 +1,5 @@
+/* component/editor/title.wxss */
+.title{
+  font-weight: bold;
+  font-size: 22px;
+}
